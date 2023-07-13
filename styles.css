@@ -1,0 +1,95 @@
+html, body { min-height: 100%;}
+
+
+body { font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+ background: hsl(30, 38%, 92%);
+height: 100vh;
+display: flex;
+margin: 0;
+align-items: center;
+box-sizing: border-box;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;}
+
+main { 
+background: white;
+width: 340px;
+border-radius: 15px;}
+
+
+h1{ font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2rem;
+padding: 0px;
+margin: 15px 0;
+color: hsl(212, 21%, 14%);}
+
+ p {
+font-weight: 500;
+font-size: 14px;
+padding: 0;
+color: hsl(228, 12%, 48%);}
+
+.perfume { letter-spacing: 4px;
+font-size: 12px;}
+
+
+section { padding:10px 20px 25px  20px;
+display: flex;
+flex-direction: column;}
+
+img { width: 100%;
+border-radius: 15px 15px 0 0;}
+
+.prices { display: flex;
+flex-wrap: nowrap;}
+ .new-price { color: hsl(158, 36%, 37%) ;}
+
+.old-price { align-self: center;
+text-decoration: line-through;
+padding-left: 20px;}
+.button  { display: flex;}
+
+button { background:  hsl(158, 36%, 37%);
+color: white;
+align-content: center;
+font-family:  Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+text-align: center;
+padding: 15px 60px;
+border: none;
+border-radius: 10px;
+border-color: white;
+width: 100%;
+margin: 5px 0;
+cursor: pointer;
+}
+button:hover {background-color: #1a4031 ;}
+
+.cart { width: 14px; 
+    height: 15px;
+padding-right: 3px;
+justify-self: center;}
+
+@media screen and (min-width: 760px) {
+
+    main { display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        width: 600px;
+        border-radius: 15px;
+
+    }
+
+    img { height: 100%;
+    width: 300px;
+border-radius: 15px 0 0 15px;}
+
+section {padding: 20px 30px;
+display: flex;
+justify-content: space-around;}
+    
+}
